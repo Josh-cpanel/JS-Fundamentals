@@ -1,7 +1,11 @@
-function factorial (n) {
-    if (isNaN(n) || n < 0) {
-        return 1;
-    }
-    const num = parseInt(ProcessingInstruction.argv[2]);
-    console.log(factorial(num));
-    
+$ node 10-factorial.js
+1
+
+$ node 10-factorial.js 3
+6
+
+$ node 10-factorial.js 89
+1.6507955160908452e+136
+
+$ node 10-factorial.js 333
+Infinity
